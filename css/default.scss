@@ -1,0 +1,215 @@
+//variables
+
+// == FONT ==
+//== FONTS ==
+@import url('https://fonts.googleapis.com/css?family=Cormorant:100,200,300,400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700');
+
+$cormorant:'Cormorant', serif;
+$roboto: 'Roboto', sans-serif;
+
+$font-weight:0;
+$font-size:0%;
+
+// == COLORS ==
+$black: #313131;
+$grey:#D6D1C9;
+$white: #fff;
+
+$offset-color:#F7EC29;
+$purple: #a72ffe;
+$action-color: $purple;
+
+
+// == MIXINS ===
+@mixin textHolder{
+  position: relative;
+  overflow: hidden;
+  width: 0%;
+  opacity:0;
+  left:-10%;
+  white-space: nowrap;
+}
+
+@mixin textAnimationBox{
+  position: absolute;
+  top: 3%;
+  left: 0%;
+  height: 10%;
+  width: 0%;
+  background: $white;
+}
+
+@mixin contentListHolder{
+  position:relative;
+  top:50%;
+  left:40%;
+  -webkit-transform: translate(-50%, -60%);
+  -moz-transform: translate(-50%, -60%);
+  -ms-transform: translate(-50%, -60%);
+  -o-transform: translate(-50%, -60%);
+  transform: translate(-50%, -60%);
+}
+
+@mixin text($fontFamily,$font-size,$font-weight,$color,$textTransform,$letterSpacing,$marginBottom){
+  font-family: $fontFamily;
+  text-transform: uppercase;
+  font-weight: $font-weight;
+  font-size:$font-size;
+
+  text-shadow: .2px .1px .2px $black;
+  color:$color;
+
+  letter-spacing:$letterSpacing;
+
+  line-height: 110%;
+  
+  margin-bottom:$marginBottom;
+
+}
+
+//== GLOBAL CLASSES AND IDS ==
+.text-holder{
+  @include textHolder;
+}
+
+.text-animation-box{
+  @include textAnimationBox;
+}
+
+.xlarge-text{
+  @include text($roboto,480%,500,$white,3px,uppercase,0px)
+}
+
+.large-text{
+  @include text($roboto,160%,400,$white,uppercase,3px,0px);
+}
+
+.medium-text{
+  @include text($roboto,100%,300,$black,uppercase,1px,0px);
+  line-height:170%;
+  margin-bottom:60px;
+  text-shadow: none;
+}
+
+.small-text{
+  @include text($roboto,70%,100,$black,uppercase,1px,0px);
+  text-shadow: none;
+}
+
+.price-info-box{
+  @extend .text-holder;
+  top:20%;
+}
+
+
+*{
+  margin:0;
+  padding:0;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family: $roboto;
+  font-size:20px;
+  overflow-x:hidden;
+}
+
+section,div,span{
+  margin:0;
+  padding:0;
+}
+
+h1,h2,h3,h4,h5,h6{
+  margin:0;
+  padding:0;
+}
+
+p,img,li,ul{
+  margin:0;
+  padding:0;
+}
+
+a{
+ &:hover,&:active,&:link,&:visited{
+    color:$white;
+ }
+}
+
+li{
+  list-style-type: none;
+}
+
+footer{
+  margin:0;
+  padding:0;
+}
+
+.navbar-default{
+  background:$white;
+  //border-bottom:1px solid rgba(0, 0, 0, 0.29);
+  padding:10px 0px;
+  margin-bottom:110px;
+  border-radius:0px;
+  box-shadow: 0px 5px 6px rgba(0, 0, 0, 0.29);
+}
+.navbar-default .navbar-nav>li>a {
+  color:$black;
+}
+li a{
+
+  font-size:80%;
+  transition:margin-top .3s ease-out, text-shadow .5s ease-in;
+  position:relative;
+
+
+  &:hover{
+    margin-top:-10px;
+    //text-shadow:0px 24px 2px rgba(0, 0, 0, 0.21);
+  }
+}
+
+
+  .navbar-nav{
+    float:right;
+  }
+.navbar-toggle {
+  position: relative;
+  float: right;
+  padding: 9px 10px;
+  margin-top: 8px;
+  margin-right: 15px;
+  margin-bottom: 8px;
+  background-color: transparent;
+  background-image: none;
+  border: none;
+  z-index:3;
+  transition:all .6s ease-out;
+  /* border-radius: 4px; */
+
+  &:hover{
+    background-color: white !important;
+  }
+  &:target{
+    background-color: white !important;
+  }
+  &:active{
+    background-color: white !important;
+  }
+}
+
+#contact-info{
+  li a{
+    cursor: pointer;
+    color:$black;
+    font-size: 100% !important;
+  }
+  .pointer{
+    cursor: pointer;
+
+  }
+}
+
+
+

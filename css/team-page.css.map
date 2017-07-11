@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,UAAU;EACR,OAAO,EAAC,QAAQ",
+"sources": ["team-page.scss"],
+"names": [],
+"file": "team-page.css"
+}

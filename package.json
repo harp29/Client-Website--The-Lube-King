@@ -1,0 +1,26 @@
+{
+  "name": "client-02",
+  "version": "1.0.0",
+  "description": "Client website - The Lube King.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harp29/The-Lube-King-Website.git"
+  },
+  "keywords": [
+    "Car",
+    "Service",
+    "-",
+    "Client",
+    "Site"
+  ],
+  "author": "Harpreet Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harp29/The-Lube-King-Website/issues"
+  },
+  "homepage": "https://github.com/harp29/The-Lube-King-Website#readme"
+}

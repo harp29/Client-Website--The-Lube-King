@@ -1,0 +1,269 @@
+@media all and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  #logo{
+    position:absolute;
+    left:-29%;
+  }
+  #mechanic{
+    visibility: hidden;
+  }
+  #car-white{
+    visibility: hidden;
+  }
+  #service-car{
+    height:500px;
+  }
+  #tool-shelf{
+    height:500px;
+  }
+  #hand-tool{
+    height:550px;
+    margin-bottom:-155px !important;
+  }
+  .map-page{
+    .large-text{
+      margin-bottom: 0px;
+    }
+  }
+  #shop1{
+    height:700px;
+    margin-bottom:-130px;
+  }
+  #map{
+    height:400px !important;
+  }
+}
+
+@media only screen and (min-width:2560px) and (max-width:4000px){
+  .xlarge-text{
+    font-size:700%;
+  }
+  .large-text{
+    font-size:300%;
+  }
+  .medium-text{
+    font-size: 160%;
+    margin-bottom: 90px;
+  }
+  .button{
+    font-size:30px;
+  }
+  #car-white{
+    height: 800px;
+  }
+  #mechanic{
+    height: 200px;
+  }
+
+  .map-page .large-text{
+    margin-bottom: 70px;
+  }
+
+  .team-page #tool-shelf {
+    margin-bottom: 80px;
+  }
+  .contact .emphasize {
+    font-size: 120%;
+  }
+  .contact ul li {
+    font-size: 110%;
+  }
+  .small-text {
+    font-size: 90%;
+  }
+  li a {
+    font-size: 110%;
+    transition: margin-top .3s ease-out, text-shadow .5s ease-in;
+    position: relative;
+  }
+}
+
+@media only screen and (max-width:1024px){
+  .content-list-holder{
+    top:52%;
+  }
+  .button-holder {
+    top: 80%;
+  }
+}
+
+@media only screen and (max-width: 1183px)  {
+
+
+};
+
+@media only screen and (max-width:768px){
+  .service-page .driveclean {
+    position: absolute;
+    top: 2.2%;
+    left: 1%;
+    height: 120px;
+  }
+
+  .map-page{
+    padding:50px 0px;
+
+    .large-text{
+      margin-bottom: 30px;
+    }
+  }
+
+  .map-page{
+    padding-bottom:0px;
+  }
+
+  .map-page ul{
+    &:last-child{
+      margin-bottom:50px;
+    }
+  }
+
+  .map-container{
+    margin-top:20px;
+  }
+}
+
+@media only screen and (max-width:425px) {
+  #heading1{
+    width: 72% !important;
+  }
+  .xlarge-text {
+    font-size: 368%;
+  }
+
+  .button-holder{
+    left:22%;
+  }
+
+  .service-page .car-infograph-holder {
+    margin-left: 0px;
+  }
+  .service-page .driveclean {
+    position: absolute;
+    top: 2.5%;
+    left: 3%;
+    height: 60px;
+  }
+
+  .map-container{
+    margin-top:50px;
+  }
+
+  footer .footer-cta-box {
+    background: #a72ffe;
+    padding: 83px 0px;
+  }
+  footer .footer-right-box {
+    background: #F7EC29;
+    padding: 54px 25px;
+  }
+}
+
+@media only screen and (max-width:375px){
+
+  .larger {
+    font-size: 80%;
+  }
+
+  .service-page .driveclean {
+    position: absolute;
+    top: 2.5%;
+    left: 1%;
+    height: 40px;
+  }
+  #directions-hint{
+    font-size:40%;
+  }
+}
+
+@media only screen and (max-width:320px){
+  body{
+    overflow-x: hidden;
+  }
+  
+
+  .larger {
+    font-size: 74%;
+  }
+
+  .xlarge-text {
+    font-size: 300%;
+  }
+  .button-holder {
+    top: 96%;
+    left: 17%;
+  }
+
+  .service-page .driveclean {
+    position: absolute;
+    top: 98%;
+    left: 1%;
+    height: 60px;
+  }
+
+  #directions-hint{
+    top: 105.5% !important;
+    left: 43% !important;
+  }
+  .navbar-default .navbar-toggle {
+    border-color: #ddd;
+    left: -10%;
+  }
+  #logo {
+    position: absolute;
+    top: 13px !important;
+    height: 28px !important;
+    left: 4% !important;
+    top: 28% !important;
+  }
+
+  footer .footer-cta-box {
+    background: #a72ffe;
+    padding: 105px 0px;
+  }
+}
+
+//@media only screen and (max-width: 976px)  {
+//
+//.home-car-box{
+//  margin-top: 71px !important;
+//  margin-left: 50px !important;
+//}
+//
+//  #shop1{
+//    height: 147px !important;
+//    margin-top: -100px !important;
+//  }
+//
+//};
+
+//@media only screen and (max-width: 594px)  {
+//
+//  #shop1{
+//   visibility: hidden !important;
+//  }
+//  .map-page {
+//    padding: 0px 0px;
+//  }
+//
+//};
+
+//@media only screen and (max-width: 550px)  {
+//
+//.heading-box{
+//  font-size: 84%;
+//}
+//  .home-content-box .heading-box .left-side {
+//    margin-left: 245px;
+//  }
+//};
+//
+//@media only screen and (max-width: 526px)  {
+//
+//  .heading-box{
+//    font-size: 66% !important;
+//  }
+//  .home-content-box .heading-box .left-side {
+//    margin-left: 204px;
+//  }
+//};
+

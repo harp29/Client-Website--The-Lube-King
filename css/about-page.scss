@@ -1,0 +1,132 @@
+.about-services-page{
+  padding:100px 0px 0px 0px;
+  overflow:hidden;
+  position:relative;
+
+
+
+  //h2.heading{
+  //  @include text(400, 150%);
+  //  line-height:145%;
+  //  color:$font-color-main;
+  //  margin-bottom:110px;
+  //}
+  //h3.heading{
+  //  text-transform: uppercase;
+  //  letter-spacing: 3px;
+  //  font-weight: 300;
+  //  font-size: 110%;
+  //  margin-bottom:85px !important;
+  //  color: #313131;
+  //}
+
+}
+
+
+.car-2-box{
+}
+
+
+.service-box-1{
+  padding:150px 0px 180px 0px;
+  background:url(../img/AdobeStock_83997583.jpeg) no-repeat center center;
+  background-size:cover;
+
+  .oil-change-info-box{
+     position:absolute;
+     height:100%;
+     width:100.2%;
+     background: black;
+     opacity:.75;
+     top:0;
+     left:0;
+     padding-top:40px;
+
+    //h1.heading{
+    //  @include text(300, 250%);
+    //  margin-bottom:0px;
+    //
+    //}
+    //
+    //h3.heading{
+    //  @include text(300, 80%);
+    //  line-height:160%;
+    //}
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+
+}
+
+.service-box-2{
+  padding:150px 0px 180px 0px;
+  background:url(../img/AdobeStock_72517514.jpeg) no-repeat center center;
+  background-size:cover;
+
+  .replacement-info-box{
+    position:absolute;
+    height:100%;
+    width:100.2%;
+    background: black;
+    opacity:.75;
+    top:0;
+    left:0;
+    padding-top:40px;
+
+    //h1.heading{
+    //  @include text(300, 250%);
+    //  margin-bottom:0px;
+    //
+    //}
+    //
+    //h3.heading{
+    //  @include text(300, 80%);
+    //  line-height:160%;
+    //  margin-top:12px;
+    //}
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+}
+
+.service-box-3{
+  padding:150px 0px 160px 0px;
+  background:url(../img/AdobeStock_65384863.jpeg) no-repeat center center;
+  background-size:cover;
+  position:relative;
+
+  .replacement-info-box{
+    position:absolute;
+    height:100%;
+    width:100.2%;
+    background: black;
+    opacity:.75;
+    top:0;
+    left:0;
+    padding-top:40px;
+
+    //h1.heading{
+    //  @include text(300, 250%);
+    //  margin-bottom:0px;
+    //
+    //}
+
+    //h3.heading{
+    //  @include text(300, 80%);
+    //  line-height:160%;
+    //  margin-top:12px;
+    //}
+  }
+
+  ul li{
+    list-style-type: none;
+  }
+}
+.service-box-4{
+  border:1px solid red;
+  padding:150px;
+}

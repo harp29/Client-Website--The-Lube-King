@@ -1,0 +1,51 @@
+.service-page{
+  padding:75px 0px;
+  background:linear-gradient($white,lighten($offset-color,0%));
+
+  .large-text{
+    margin-bottom:20px;
+    color:darken($grey,100%);
+    text-shadow: .5px .5px .5px $white;
+    font-size:180%;
+  }
+
+  .small-text{
+    color:lighten($black,20%);
+  }
+
+  .prices-list-holder{
+    li{
+      margin-bottom:10px;
+    }
+    position: relative;
+    margin-bottom:60px;
+  }
+
+  .car-infograph-holder{
+    margin-left: 80px;
+  }
+
+  #service-car{
+    .st0{fill:none;stroke:$black;stroke-miterlimit:10;}
+    .st1{fill:none;}
+    .st2{fill: #faf98e;stroke:$black;stroke-miterlimit:10;}
+    .st3{fill:red;opacity:1;}
+    .st4{fill:none;stroke:#4B4B4F;stroke-width:2;stroke-miterlimit:10;opacity:1;}
+    .st5{fill: #a4a9ae;}
+    .st6{font-family:$cormorant;fill:darken($white,60%);opacity:1;}
+    .st7{font-size:20px;text-transform:uppercase;}
+    .st8{letter-spacing:3px;}
+
+    //stroke-dasharray: 3000;
+    //stroke-dashoffset: 3000;
+  }
+
+  .driveclean{
+    position:absolute;
+    top:2.5%;
+    left:1%;
+  }
+}
+
+
+

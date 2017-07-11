@@ -1,0 +1,45 @@
+.contact{
+
+  padding:60px 0px 0px 0px;
+
+  .company-info-times{
+    margin-bottom:90px;
+  }
+
+  .large-text{
+    color:$black;
+    margin-bottom:60px;
+  }
+
+  .medium-text{
+    margin-bottom:20px;
+  }
+
+  #map{
+    .st0{fill:#D1D3D4;}
+    .st1{fill:#FFFFFF;}
+    .st2{fill:#FFF200;}
+    .st3{fill:#FFFFFF;stroke:#ED1C24;stroke-width:1.8409;stroke-miterlimit:10;}
+    .st4{font-family:'MyriadPro-Regular';text-transform:uppercase;}
+    .st5{font-size:22.0912px;}
+    .st6{font-family:'Futura-Medium';}
+    .st7{font-size: 11px;
+      text-transform: uppercase;}
+    .st8{fill:#8C56A3;}
+    .st9{fill:#822882;}
+    .st10{font-size: 15px;
+      text-transform: uppercase;
+      text-align: center;}
+    margin-bottom:50px;
+  }
+
+  ul li{
+    list-style-type: none;
+    font-size:80%;
+    margin-bottom:8px;
+  }
+  .emphasize{
+    font-size:100%;
+    margin-bottom:12px;
+  }
+}
